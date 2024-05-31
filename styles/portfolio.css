@@ -1,7 +1,7 @@
 :root {
   --branding-color: #db70e7;
   --secondary-color: #f9e0ee;
-  --heading-font-family: "Aleo", serif;
+  --heading-font-family: "Roboto Mono", monospace;
   --default-font-family: "Varela Round", sans-serif;
 }
 
