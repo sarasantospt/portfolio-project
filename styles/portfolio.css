@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #e076eb;
-  --secondary-color: #f5d2e5;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #db70e7;
+  --secondary-color: #f9e0ee;
+  --heading-font-family: "Aleo", serif;
+  --default-font-family: "Varela Round", sans-serif;
 }
 
 body {
@@ -30,6 +30,7 @@ h2 {
 }
 
 p {
+  font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
