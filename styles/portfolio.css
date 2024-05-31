@@ -1,8 +1,9 @@
 :root {
-  --branding-color: #db70e7;
+  --branding-color: #de77da;
   --secondary-color: #f9e0ee;
   --heading-font-family: "Roboto Mono", monospace;
   --default-font-family: "Varela Round", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.334);
 }
 
 body {
@@ -58,6 +59,7 @@ p {
 
 .btn-branding {
   background: var(--branding-color);
+  box-shadow: var(--box-shadow);
   border-radius: 30px;
   color: white;
   font-size: 18px;
@@ -67,8 +69,9 @@ p {
 
 .btn-branding-outline {
   color: var(--branding-color);
+  box-shadow: var(--box-shadow);
   border: 1px solid var(--branding-color);
-  border-radius:30px;
+  border-radius: 30px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
