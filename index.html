@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css" />
 
     <script
@@ -33,10 +34,32 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img src="images/name-logo.png" class="name-logo d-none d-md-block" alt="" />
+        <img src="images/small-logo.png" class="name-logo d-block d-md-none" alt="" />
+      </a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="hero">
-      <p>👋🏽Hello, I am</p>
-      <h1>Sara Santos</h1>
-      <h2 class="mb-5">Frontend Developer based in London,UK</h2>
+      <p>🌷Hello! I'm</p>
+      <h1 class="my-name">Sara Santos</h1>
+      <h2 class="mb-5 mt-1">Frontend Developer based in London,UK</h2>
       <div>
         <a href="#" class="btn btn-branding">Contact Me</a>
       </div>
@@ -85,7 +108,7 @@
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Weather App</h2>
+            <h2 class="mb-5">Weather Forecast App</h2>
             <p class="mb-5">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
@@ -96,6 +119,26 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+          <a href="" class="btn btn-branding mt-2">
+            Contact Me
+          </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+        <a href="mailto:sarasantos1@hotmail.co.uk" class="email-link">sarasantos1@hotmail.co.uk</a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/sara-s-b872441a6/" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/sarasantospt" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>  
+      </footer>
     </div>
   </body>
 </html>

@@ -1,6 +1,7 @@
 :root {
-  --branding-color: #de77da;
-  --secondary-color: #f9e0ee;
+  --branding-color: #eb8fe8;
+  --primary-color: #d5bbea;
+  --secondary-color: #f2eaf7d7;
   --heading-font-family: "Roboto Mono", monospace;
   --default-font-family: "Varela Round", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.274);
@@ -30,6 +31,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 35px;
+}
+
 p {
   font-family: var(--heading-font-family);
   font-weight: normal;
@@ -37,8 +42,16 @@ p {
   line-height: 30px;
 }
 
+.my-name {
+  font-family: "Merienda", cursive;
+  color: rgb(215, 133, 197);
+}
+
 .hero {
-  background: var(--secondary-color);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/103/original/background-tulip.jpg?1717428416");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 160px 20px;
 }
@@ -95,17 +108,19 @@ p {
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
   border-radius: 30px;
-  border: 1px solid white;
+  border: 2px solid white;
   color: whitesmoke;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: transform 0.7s ease;
 }
 
 .btn-branding:hover {
   background: #aa6bde;
   color: white;
   border: 1px solid white;
+  transform: translateY(-5px);
 }
 
 .btn-branding-outline {
@@ -116,15 +131,87 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: transform 0.7s ease;
 }
 
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: white;
+  transform: translateY(-5px);
 }
 
 .project-description {
   padding: 120px 60px;
+}
+
+.name-logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 140ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #602193;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: rgba(223, 200, 228, 0.541);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #c974c6;
+  background-color: var(--secondary-color);
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 140ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: rgba(193, 21, 212, 0.833);
+  background: var(--primary-color);
 }
 
 @media (max-width: 900px) {
@@ -135,6 +222,10 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4{
+    font-size: 26px;
   }
 
   .hero {
