@@ -1,10 +1,10 @@
 :root {
-  --branding-color: #eb8fe8;
+  --branding-color: rgb(215, 133, 197);
   --primary-color: #d5bbea;
   --secondary-color: #f2eaf7d7;
   --heading-font-family: "Roboto Mono", monospace;
   --default-font-family: "Varela Round", sans-serif;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.274);
+  --box-shadow: 0 5px 10px rgba(224, 122, 195, 0.49);
 }
 
 body {
@@ -48,12 +48,12 @@ p {
 }
 
 .hero {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/103/original/background-tulip.jpg?1717428416");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/613/original/background-tulip.jpg?1718035780");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -71,7 +71,13 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/196/original/spring-seamless-pattern-white-background-pink-tulips_288990-1899.jpg?1717517264");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
 }
 
 .content h1 {
@@ -119,7 +125,7 @@ p {
 .btn-branding:hover {
   background: #aa6bde;
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
   transform: translateY(-5px);
 }
 
@@ -150,6 +156,12 @@ p {
 
 nav {
   padding: 15px 0;
+}
+
+.custom-shadow {
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  background: white;
 }
 
 nav ul {
@@ -186,7 +198,7 @@ footer {
 }
 
 footer .contact-box {
-  background: rgba(223, 200, 228, 0.541);
+  background: rgba(209, 183, 211, 0.352);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -224,7 +236,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4{
+  h4 {
     font-size: 26px;
   }
 
