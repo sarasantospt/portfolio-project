@@ -53,7 +53,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 100px 20px;
+  padding: 110px 20px;
 }
 
 .hero p {
@@ -70,20 +70,24 @@ p {
   font-size: 24px;
 }
 
-.content-container {
-  padding: 60px 20px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/196/original/spring-seamless-pattern-white-background-pink-tulips_288990-1899.jpg?1717517264");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-}
-
 .content h1 {
   font-size: 64px;
   line-height: 80px;
   text-align: center;
+}
+
+.content-container {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/287/original/hand-painted-watercolor-abstract-background_23-2148995297.jpg?1722348185");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  min-height: 100vh;
 }
 
 .content-container h2 {
@@ -103,6 +107,26 @@ p {
 
 .content {
   margin: 30px;
+}
+
+#work{
+  font-size:50px;
+  font-family: var(--default-font-family);
+  color: var(--branding-color); 
+}
+
+.hr{
+  border: none;
+  border-top: 4px #cc44c3;
+  background-color: #cc44c3;
+  height: 3px;
+  margin: 20px 0;
+}
+
+#certificates{
+  font-size: 50px;
+  font-family: var(--default-font-family);
+  color: var(--branding-color); 
 }
 
 .photo {
