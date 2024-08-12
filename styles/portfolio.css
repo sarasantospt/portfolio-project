@@ -9,6 +9,11 @@
 
 body {
   font-family: var(--default-font-family);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/287/original/hand-painted-watercolor-abstract-background_23-2148995297.jpg?1722348185");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 h1,
@@ -70,6 +75,23 @@ p {
   font-size: 24px;
 }
 
+.bg-body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/287/original/hand-painted-watercolor-abstract-background_23-2148995297.jpg?1722348185");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.content-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -77,17 +99,12 @@ p {
 }
 
 .content-container {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/136/287/original/hand-painted-watercolor-abstract-background_23-2148995297.jpg?1722348185");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px 20px;
-  min-height: 100vh;
 }
 
 .content-container h2 {
@@ -109,13 +126,14 @@ p {
   margin: 30px;
 }
 
-#work{
-  font-size:50px;
+#work {
+  font-size: 50px;
   font-family: var(--default-font-family);
-  color: var(--branding-color); 
+  color: var(--branding-color);
+  margin-top: 0px;
 }
 
-.hr{
+.hr {
   border: none;
   border-top: 4px #cc44c3;
   background-color: #cc44c3;
@@ -123,10 +141,10 @@ p {
   margin: 20px 0;
 }
 
-#certificates{
+#certificates {
   font-size: 50px;
   font-family: var(--default-font-family);
-  color: var(--branding-color); 
+  color: var(--branding-color);
 }
 
 .photo {
