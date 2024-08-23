@@ -47,6 +47,15 @@ p {
   line-height: 30px;
 }
 
+p,
+ul {
+  font-family: var(--heading-font-family);
+}
+
+ul li {
+  line-height: 2;
+}
+
 .my-name {
   font-family: "Merienda", cursive;
   color: rgb(215, 133, 197);
@@ -220,6 +229,8 @@ nav li {
   list-style: none;
   line-height: 40px;
   margin-left: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 nav a {
@@ -230,7 +241,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: #602193;
+  color: #861ddb;
 }
 
 footer .email-link {
@@ -244,7 +255,7 @@ footer {
 }
 
 footer .contact-box {
-  background: rgba(201, 143, 205, 0.373);
+  background: rgba(214, 159, 218, 0.373);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -259,8 +270,8 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: #c974c6;
-  background-color: var(--secondary-color);
+  color: #eb3de6;
+  background-color:#efcded;
   padding: 10px 16px;
   border-radius: 50%;
   font-size: 20px;
