@@ -310,4 +310,10 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
+  #work {
+    font-size: 24px;
+  }
+  #certificates {
+    font-size: 24px;
+  }
 }
