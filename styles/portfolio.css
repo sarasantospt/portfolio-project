@@ -137,14 +137,14 @@ ul li {
 }
 
 .text-container {
-    padding: 20px;       
-    margin: 10px auto;    
-    border: 3px solid #d8badc;
-    background-color: #eed2f177; 
-    max-width: 600px;     
-    text-align: center;    
-    border-radius: 15px; 
-    box-shadow: 0px 5px 10px rgba(221, 117, 186, 0.73); 
+  padding: 20px;
+  margin: 10px auto;
+  border: 3px solid #d8badc;
+  background-color: #eed2f177;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px rgba(221, 117, 186, 0.73);
 }
 
 #work {
@@ -155,15 +155,15 @@ ul li {
   margin-top: 0px;
 }
 
-#touch{
+#touch {
   margin-top: 0;
   color: rgb(203, 92, 196);
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 540;
 }
 
-#name{
-  font-size: 65px
+#name {
+  font-size: 65px;
 }
 
 .rounded-corners {
@@ -254,7 +254,7 @@ nav li {
   list-style: none;
   line-height: 40px;
   margin-left: 25px;
-  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -269,8 +269,8 @@ nav li.active a {
   color: #861ddb;
 }
 
-.inquiry{
-  border: 1px solid rgb(189, 125, 206)
+.inquiry {
+  border: 1px solid rgb(189, 125, 206);
 }
 
 footer .email-link {
@@ -297,24 +297,24 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 
-a.links{
-text-decoration: underline;
-text-decoration-thickness: 1px;
-font-size: 17px;
-font-family: var(--heading-font-family);
-color: rgb(228, 118, 15);
+a.links {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  font-size: 17px;
+  font-family: var(--heading-font-family);
+  color: rgb(228, 118, 15);
 }
 
-a.links:hover{
-  text-decoration:none;
-  color:#4fc61c;
+a.links:hover {
+  text-decoration: none;
+  color: #4fc61c;
   transition: all 150ms ease-in-out;
 }
 
 footer .social-links a {
   margin: 0 20px;
   color: #eb3de6;
-  background-color:#efcded;
+  background-color: #efcded;
   padding: 10px 16px;
   border-radius: 50%;
   font-size: 20px;
